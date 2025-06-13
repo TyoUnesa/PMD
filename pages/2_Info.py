@@ -5,9 +5,9 @@ import pandas as pd
 
 
 
-df_cleaned = pd.read_csv("S4_Projek_PMD2/df_cleaned.csv")
-grouped = pd.read_csv("S4_Projek_PMD2/grouped.csv")  
-grouped_pairs = pd.read_csv("S4_Projek_PMD2/grouped_pairs.csv")
+df_cleaned = pd.read_csv("df_cleaned.csv")
+grouped = pd.read_csv("grouped.csv")  
+grouped_pairs = pd.read_csv("grouped_pairs.csv")
 
 
 st.title("Visualisasi Data")
