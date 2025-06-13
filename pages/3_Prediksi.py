@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # fungsi backpro
-dataset = pd.read_csv("S4_Projek_PMD2/grouped_pairs.csv")
+dataset = pd.read_csv("grouped_pairs.csv")
 
 X = dataset.drop(columns=['Win_1'])
 y = dataset['Win_1']
