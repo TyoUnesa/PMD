@@ -5,7 +5,7 @@ import pydeck as pdk
 st.set_page_config(page_title="Home", layout="wide")
 
 st.title("Sistem Prediksi Kemenangan Pertandingan Mobile Legends Berbasis Data Turnamen")
-st.image("S4_Projek_PMD2/logo ML (1).png")
+st.image("logo ML (1).png")
 st.markdown('<hr style="border: 2px solid orange;">', unsafe_allow_html=True)
 st.markdown("""
 
